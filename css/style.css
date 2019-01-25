@@ -8,4 +8,63 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: url(../img/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+div {
+  border: 1px solid black;
+}
+
+span {
+  font-weight: 800;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  color: midnightblue;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+p {
+  text-align: left;
+}
+
+div.everything {
+  display: inline-block;
+  text-align: center;
+}
+
+div.phone {
+  display: inline-block;
+}
+
+div.container {
+  display: inline-block;
+  width: 500px;
+  height: 180px;
+  vertical-align: top;
+  padding: 50px;
+}
+
+img.logo {
+  padding: 0px 95px 0px 0px;
+}
+
+div.top {
+  display: inline-block;
+  width: 500px;
+  text-align: right;
+}
+
+div.paragraph {
+  display: inline-block;
+  background-image: url(../img/frame.png);
+}
+
+footer {
+  text-align: center;
+
 }
